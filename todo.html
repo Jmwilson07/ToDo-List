@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3p6lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+
+
+<body>
+    <div class="code-container">
+        <h1 class="text-center">Make your <span>to-do</span> list</h1>
+        <div class=" d-flex flex-row justify-content-center mb-3">
+            <input type="text" placeholder="Add a new task..." class="todo-user-input mr-3" id="userid" />
+            <div>
+                <button class="mt-3 p-2" id="addid">add</button>
+            </div>
+        </div>
+        <hr class="hr" />
+
+        <h1 class="mt-5">To-do items :</h1>
+        <ul class="todo-items-container" id="todoItemsContainer"></ul>
+        <h1 class="mt-5">Completed Tasks :</h1>
+        <ul class="todo-items-container" id="completeditemsContainer"></ul>
+        <button class="mt-3 p-2" id="saveid">Save</button>
+
+
+
+    </div>
+<script src="todo.js"></script>
+</body>
+
+
+</html>

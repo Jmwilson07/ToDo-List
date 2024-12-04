@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.line {
+    text-decoration: line-through;
+    text-decoration-color: gold;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.checkbox-label {
+    color: lightpink;
+    font-size: 34px;
+}
+
+
+
+.checkbox-label {
+    font-family: "Serif";
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.delete-icon-container {
+    text-align: right;
+    color: white;
+    margin-top: 15px;
+
+}
+
+
+
+.label-style {
+    color: white;
+    font-size: 20px;
+}
+
+.checkbox-input {
+    width: 100px;
+    /* Increase width */
+    height: 100px;
+    /* Increase height */
+    cursor: pointer;
+    /* Change cursor on hover */
+}
+
+
+.hr {
+    background-color: white;
+    margin-top: 70px;
+}
+
+.todo-user-input {
+    background-color: white;
+    width: 70%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h1 {
+    color: orange;
+    margin-top: 20px;
+}
+
+.card-container {
+    background-color: white;
+    border-radius: 15px;
+    width: 1000%;
+}
+
+span {
+    color: deeppink;
+    font-family: "Playfair Display";
+}
+
+body {
+    background-image: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    height: 100vh;
+}
+
+.code-container {
+
+    background-image: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Courier New', monospace;
+    position: relative;
+
+}
+
+
+button {
+    color: white;
+    background-color: blue;
+    padding: 20px;
+    height: 50px;
+    width: 80px;
+    border-width: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+/* Fake traffic lights */
+.code-container::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: #FF5F56;
+    border-radius: 50%;
+    box-shadow:
+        20px 0 0 #FFBD2E,
+        40px 0 0 #27C93F;
+}
